@@ -18,3 +18,7 @@ cordova platform add android
 cordova plugin add cordova-sqlite-storage
 cordova emulate ios
 ```
+
+## Notes on use
+
+The main thing to note is in the map style object. The "source" attribute under "layers" and the source name under "sources" must correspond to the filename of the .mbtiles file ("naturalearth" in the example). The "source-layer" attribute under "layers" should correspond to the layer name in Mapbox Studio when exporting the .mbtiles file.
