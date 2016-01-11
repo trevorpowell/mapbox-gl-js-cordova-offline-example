@@ -15,7 +15,7 @@ git clone https://github.com/trevorpowell/mapbox-gl-js-cordova-offline-example.g
 cd mapbox-gl-js-cordova-offline-example
 cordova platform add ios
 cordova platform add android
-cordova plugin add cordova-sqlite-storage
+cordova plugin add https://github.com/litehelpers/cordova-sqlite-storage.git#0.7.10
 cordova emulate ios
 ```
 
